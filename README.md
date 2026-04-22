@@ -1,5 +1,3 @@
-<img width="1335" height="1311" alt="image" src="https://github.com/user-attachments/assets/921a07f4-3cfb-47aa-a8f0-e10931a903b5" /># BiasCareVL: Bias-constrained multimodal intelligence for equitable and reliable clinical AI
-
 ## Overview
 The integration of medical imaging and clinical text has enabled the emergence of generalist artificial intelligence (AI) systems for healthcare. However, pervasive biases, such as imbalanced disease prevalence, skewed anatomical region distributions, heterogeneous imaging protocols, and demographic disparities, pose significant challenges to the fairness and reliability of vision-language systems in real-world clinical settings. Here we present BiasCareVL, a bias-aware multimodal learning framework that introduces bias control directly into model design, rather than treating it as a post hoc correction.
 
