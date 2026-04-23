@@ -1,5 +1,3 @@
-# BiasCareVL: Bias-constrained multimodal intelligence for equitable and reliable clinical AI
-
 ## Overview
 The integration of medical imaging and clinical text has enabled the emergence of generalist artificial intelligence (AI) systems for healthcare. However, pervasive biases, such as imbalanced disease prevalence, skewed anatomical region distributions, heterogeneous imaging protocols, and demographic disparities, pose significant challenges to the fairness and reliability of vision-language systems in real-world clinical settings. Here we present BiasCareVL, a bias-aware multimodal learning framework that introduces bias control directly into model design, rather than treating it as a post hoc correction.
 
@@ -86,7 +84,7 @@ Expected inference outputs are written under `./runs/<exp_name>/`:
 
 ## Feedback and Contact
 
-For questions about the code release, please replace this section with the project contact email, issue tracker, or corresponding author information.
+For questions about the code release, please contact cheng.li6@siat.ac.cn or ss.wang@siat.ac.cn.
 
 ## License
 
@@ -110,8 +108,8 @@ If you find this repository useful, please consider citing:
 ```bibtex
 @article{biascarevl,
   title   = {Bias-constrained multimodal intelligence for equitable and reliable clinical AI},
-  author  = {Author Placeholder},
-  journal = {Journal Placeholder},
-  year    = {Year Placeholder}
+  author  = {Cheng Li, Weijian Huang, Jiarun Liu, Hao Yang, Qi Yang, Song Wu, Ye Li, Hairong Zheng, Shanshan Wang},
+  journal = {arXiv:2604.16884},
+  year    = {2026}
 }
 ```
