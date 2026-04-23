@@ -29,6 +29,7 @@ source .venv/bin/activate
 
 pip install -r requirements.txt
 ```
+Installation is very fast, taking less than half an hour.
 
 ### Requirements
 
@@ -37,7 +38,7 @@ pip install -r requirements.txt
 - NVIDIA GPU(s) with CUDA support are recommended for practical use.
 - Main dependencies are listed in [`requirements.txt`](./requirements.txt), 
 
-### Checkpoints and paths
+### Checkpoints and Demo
 
 Before running the code, update local paths as needed. In particular, check:
 
@@ -81,10 +82,11 @@ Expected inference outputs are written under `./runs/<exp_name>/`:
 - `visualization/`
 - `results/*.json`
 
+Inference speed depends on the data, task, and hardware. For example, disease classification inference for CXR-LT 2024 Task 2 (406 images) on a server equipped with one A800 GPU takes 0.24 hours, including model loading and inference.
 
 ## Feedback and Contact
 
-For questions about the code release, please contact cheng.li6@siat.ac.cn or ss.wang@siat.ac.cn.
+For questions about the code release or implementation, please contact cheng.li6@siat.ac.cn or ss.wang@siat.ac.cn.
 
 ## License
 
@@ -99,7 +101,7 @@ This repository builds on or includes components related to:
 - `SAM`
 - `IMIS`
 
-You can expand this section with specific upstream repositories or acknowledgements as needed.
+We gratefully acknowledge the developers and contributors of these publicly available works, as well as the datasets, that have collectively enabled our research.
 
 ## Citation
 
